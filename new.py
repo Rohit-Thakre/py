@@ -1,14 +1,2 @@
 print("new file")
-
-
-
-
-
-
-
-
-
-
-
-add new line
-hello world
+print("adding new line.")
