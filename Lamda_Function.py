@@ -28,5 +28,5 @@ def max(a,b):
 
 print("Regular Max  :", max(20, 50))
 
-Max = lambda x , y : x if x > y else y KT
+Max = lambda x , y : x if x > y else y
 print("lambda max :",Max(20,50)) 
