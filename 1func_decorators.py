@@ -22,24 +22,15 @@ print(operator(dec, 5))
 
 
 
-# def called(): 
-#     def returned(): 
-#         # print("hello world")
-#         return "Hello world"
-    
-#     return returned
-
-# cld = called()
-
-# print(cld())
 
 
 
 def decorated(func): 
     def inner(): 
-        print("I'm Decorated.")
-        # func()
-        # return "i'm Decorated"
+        print("start")
+        func()
+        print("end")
+       
     return inner
 
 
